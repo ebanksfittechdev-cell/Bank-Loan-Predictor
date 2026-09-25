@@ -5,7 +5,7 @@ from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-import joblib
+import os
 
 
 
@@ -63,4 +63,6 @@ def unauthorized():
 app = create_app()
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    is_production = os.environ.get("FLASK_ENV") == "production"
+    app.run(host="0.0.0.0", port=port, debug=not is_production)
