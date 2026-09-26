@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import './Applicant_Form.css'
+import './applicant_form.css'
 
 const API_URL = import.meta.env.VITE_API_URL
 

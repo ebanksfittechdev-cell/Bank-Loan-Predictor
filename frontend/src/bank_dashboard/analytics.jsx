@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import Navbar from './Navbar.jsx'
-import './Analytics.css'
+import Navbar from './navbar.jsx'
+import './analytics.css'
 
 const API_URL = import.meta.env.VITE_API_URL
 const APPLICATIONS_ENDPOINT = `${API_URL}/api/banker/applications`

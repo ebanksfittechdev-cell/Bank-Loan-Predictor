@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import './Auth.css'
+import './auth.css'
 
 const REGISTER_ENDPOINT = `${import.meta.env.VITE_API_URL}/api/auth/register`
 

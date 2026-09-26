@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import Navbar from './Navbar.jsx'
-import './Settings.css'
+import Navbar from './navbar.jsx'
+import './settings.css'
 
 const API_URL = import.meta.env.VITE_API_URL
 const ME_ENDPOINT = `${API_URL}/api/auth/me`

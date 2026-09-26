@@ -1,5 +1,5 @@
 import { Link, useLocation, useParams } from 'react-router-dom'
-import './Applicant_Form.css'
+import './applicant_form.css'
 
 function riskLabel(score) {
   // riskScore is the model's probability of DEFAULT, not approval —

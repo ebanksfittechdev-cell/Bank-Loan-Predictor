@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import Navbar from './Navbar.jsx'
-import './Audit_Log.css'
+import Navbar from './navbar.jsx'
+import './audit_log.css'
 
 const AUDIT_ENDPOINT = `${import.meta.env.VITE_API_URL}/api/banker/audit`
 

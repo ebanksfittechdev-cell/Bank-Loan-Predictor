@@ -1,5 +1,5 @@
 import { NavLink, useNavigate } from 'react-router-dom'
-import './Navbar.css'
+import './navbar.css'
 
 const LOGOUT_ENDPOINT = `${import.meta.env.VITE_API_URL}/api/auth/logout`
 

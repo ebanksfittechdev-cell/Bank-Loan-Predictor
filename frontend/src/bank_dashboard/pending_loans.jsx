@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Navbar from './Navbar.jsx'
+import Navbar from './navbar.jsx'
 import './Pending_Loans.css'
 
 const APPLICATIONS_ENDPOINT = `${import.meta.env.VITE_API_URL}/api/banker/applications`
