@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
-import Login from './onboarding/Login.jsx'
-import Onboarding from './onboarding/Onboarding.jsx'
+import Login from './onboarding/login.jsx'
+import Onboarding from './onboarding/onboarding.jsx'
 import PendingLoans from './bank_dashboard/pending_loans.jsx'
 import AuditLog from './bank_dashboard/audit_log.jsx'
 import ApplicantForm from './applicant_form/applicant_form.jsx'
